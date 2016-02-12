@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTime", "PrimeTime.csproj", "{2339DB6F-3F8A-4E33-BDC6-FE30923F9AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTimeTests", "..\PrimeTimeTests\PrimeTimeTests.csproj", "{FAB98E9F-F16D-4907-ABE9-7D7FDC117642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2339DB6F-3F8A-4E33-BDC6-FE30923F9AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2339DB6F-3F8A-4E33-BDC6-FE30923F9AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2339DB6F-3F8A-4E33-BDC6-FE30923F9AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2339DB6F-3F8A-4E33-BDC6-FE30923F9AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB98E9F-F16D-4907-ABE9-7D7FDC117642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB98E9F-F16D-4907-ABE9-7D7FDC117642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB98E9F-F16D-4907-ABE9-7D7FDC117642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB98E9F-F16D-4907-ABE9-7D7FDC117642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
