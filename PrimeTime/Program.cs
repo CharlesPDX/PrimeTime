@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PrimeTime
+﻿namespace PrimeTime
 {
-    using System.Diagnostics;
+    using System;
 
+    /// <summary>
+    /// Program to generate prime numbers in the allotted time.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Entry point into the program
+        /// </summary>
+        /// <param name="args">The command line arguments.</param>
         static void Main(string[] args)
         {
             const int secondsInAMinute = 60;
