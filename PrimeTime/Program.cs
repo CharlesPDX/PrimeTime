@@ -16,12 +16,23 @@
             const int secondsInAMinute = 60;
             const int millisecondsInASecond = 1000;
             const int oneMinuteInMilliseconds = secondsInAMinute * millisecondsInASecond;
-            
+
             var primeNumber = new PrimeNumbers();
             var timeTracker = new TimeTracker(oneMinuteInMilliseconds);
             var highestNumberOfPrimesToGenerate = 1000000000;
             timeTracker.Begin();
-            primeNumber.Generate(highestNumberOfPrimesToGenerate, prime => OnPrimeNumberFound(prime, timeTracker), () => !timeTracker.IsTimeExpired());
+
+            foreach (var prime in primeNumber.Generate(highestNumberOfPrimesToGenerate))
+            {
+                if (!timeTracker.IsTimeExpired())
+                {
+                    OnPrimeNumberFound(prime, timeTracker);
+                }
+                else
+                {
+                    break;
+                }
+            }
 
             Console.WriteLine("Press enter to exit.");
             Console.ReadLine();
